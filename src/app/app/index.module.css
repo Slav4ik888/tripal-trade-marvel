@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  justify-content: space-around;
+
+  background: url('../../shared/assets/board-mat.jpg');
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 1030px;
+  height: 610px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid green;
+  width: 50%;
+}
+
+.plate {
+  height: 33%;
+  width: 33%;
+}
+
+.plate:hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.plateCard {
+  max-width: 33%;
+  max-height: 33%;
+}

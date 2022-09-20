@@ -1,0 +1,14 @@
+.root {
+  border: 2px solid red;
+  width: 20%;
+}
+
+.card+.card {
+  margin-top: -62%;
+}
+.left.active {
+  margin-left: 40px;
+}
+.right.active {
+  margin-left: -40px;
+}

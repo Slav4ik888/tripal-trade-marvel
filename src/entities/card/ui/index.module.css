@@ -1,0 +1,47 @@
+.root {
+  border: 5px solid black;
+  border-radius: 4px;
+  background-color: wheat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  transition: all 0.3s ease 0.2s;
+}
+.root img {
+  width: 100%;
+} 
+.values {
+  font-weight: bold;
+  font-size: 18px;
+  color:  yellow;
+  /* background-color:black; */
+  position: relative;
+  width: 53px;
+  height: 53px;
+}
+.values div:nth-child(1) {
+  position: absolute;
+  left: 37%;
+}
+.values div:nth-child(2) {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+.values div:nth-child(3) {
+  position: absolute;
+  left: 37%;
+  bottom: 0;
+}
+.values div:nth-child(4) {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+.bigValue {
+  left: 28% !important;
+}
+
+.value {
+  text-shadow: 1px 1px 1px #000;
+}
